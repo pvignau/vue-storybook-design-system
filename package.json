@@ -5,5 +5,5 @@
   "author": "Pierre-Yves Vignau",
   "license": "MIT",
   "private": true,
-  "workspaces": ["design-system", "tokens"]
+  "workspaces": ["my-handsome-project-ds", "tokens", "my-handsome-project"]
 }
