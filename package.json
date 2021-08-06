@@ -1,0 +1,9 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pierre-Yves Vignau",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["design-system", "tokens"]
+}

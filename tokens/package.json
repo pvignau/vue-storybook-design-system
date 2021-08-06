@@ -1,0 +1,16 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pierre-Yves VIgnau",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "mkdirp dist && cpy index.js dist && style-dictionary build --config ./config.js"
+  },
+  "dependencies": {
+    "cpy-cli": "^3.1.1",
+    "mkdirp": "^1.0.4",
+    "style-dictionary": "^3.0.1"
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="ds" horiz-adv-x="1000" >
+<font-face font-family="ds" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="plus" unicode="&#xe801;" d="M536 814h-72v-428h-428v-72h428v-428h72v428h428v72h-428v428z" horiz-adv-x="1000" />
+
+<glyph glyph-name="chat" unicode="&#xe804;" d="M245 130l-14 30c-28 58-43 122-43 190 0 242 195 438 437 438 242 0 438-196 438-438 0-242-196-438-438-438-69 0-134 16-192 45l-17 8-18-2-276-35 106 173 17 29z m-203-212l-42-68 80 10 325 41c67-33 141-51 220-51 276 0 500 224 500 500 0 276-224 500-500 500-276 0-500-224-500-500 0-78 18-151 49-217l-132-215z" horiz-adv-x="1125" />
+
+<glyph glyph-name="person" unicode="&#xe806;" d="M59-91h-30v-30h30v30z m614 0v-30h29v30h-29z m-585 76c0 154 125 278 278 278v59c-186 0-337-151-337-337h59z m278 278c153 0 277-124 277-278h59c0 186-150 337-336 337v-59z m-337-278v-76h59v76h-59z m30-106h614v59h-614v-59z m643 30v76h-59v-76h59z m-135 652c0-111-90-201-201-201v-59c143 0 259 117 259 260h-58z m-201-201c-111 0-201 90-201 201h-59c0-143 116-260 260-260v59z m-201 201c0 111 90 201 201 201v59c-144 0-260-117-260-260h59z m201 201c111 0 201-90 201-201h58c0 143-116 260-259 260v-59z" horiz-adv-x="706" />
+
+<glyph glyph-name="search" unicode="&#xe808;" d="M671 135c-71-61-164-97-265-97-224 0-406 181-406 406 0 224 182 406 406 406 225 0 407-182 407-406 0-101-37-193-98-265l276-276-44-44-276 276z m79 309c0-190-154-344-344-344-190 0-343 154-343 344 0 190 153 344 343 344 190 0 344-154 344-344z" horiz-adv-x="1000" />
+
+<glyph glyph-name="home" unicode="&#xe809;" d="M47 284l72 72v-443h800v443l71-72 47 48-518 518-519-518 47-48z m138-304v442l334 334 333-334v-442h-200v333h-267v-333h-200z m267 266v-266h133v266h-133z" horiz-adv-x="1067" />
+</font>
+</defs>
+</svg>
