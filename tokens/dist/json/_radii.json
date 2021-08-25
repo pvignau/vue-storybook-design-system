@@ -1,0 +1,22 @@
+{
+  "Radius5RadiusType": "single",
+  "Radius5RadiiTopLeft": 5,
+  "Radius5RadiiTopRight": 5,
+  "Radius5RadiiBottomRight": 5,
+  "Radius5RadiiBottomLeft": 5,
+  "Radius5Smoothing": 0,
+  "Radius5Radius": 5,
+  "RadiiSmoothingRadius": 10,
+  "RadiiSmoothingRadiusType": "single",
+  "RadiiSmoothingRadiiTopLeft": 10,
+  "RadiiSmoothingRadiiTopRight": 10,
+  "RadiiSmoothingRadiiBottomRight": 10,
+  "RadiiSmoothingRadiiBottomLeft": 10,
+  "RadiiSmoothingSmoothing": 0.75,
+  "RadiiMixedRadiusType": "mixed",
+  "RadiiMixedRadiiTopLeft": 5.5,
+  "RadiiMixedRadiiTopRight": 10,
+  "RadiiMixedRadiiBottomRight": 15,
+  "RadiiMixedRadiiBottomLeft": 20,
+  "RadiiMixedSmoothing": 0
+}

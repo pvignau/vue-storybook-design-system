@@ -1,0 +1,23 @@
+{
+  "BordersSingleStrokeAlign": "inside",
+  "BordersSingleDashPattern": "",
+  "BordersSingleStrokeCap": "none",
+  "BordersSingleStrokeJoin": "miter",
+  "BordersSingleStrokeMiterLimit": 4,
+  "BordersSingleStrokeWeight": 5,
+  "BordersSingleStroke": "rgba(0, 0, 0, 1)",
+  "BordersDashedOutsideStrokeAlign": "outside",
+  "BordersDashedOutsideDashPattern": "5,5,3,3",
+  "BordersDashedOutsideStrokeCap": "none",
+  "BordersDashedOutsideStrokeJoin": "miter",
+  "BordersDashedOutsideStrokeMiterLimit": 4,
+  "BordersDashedOutsideStrokeWeight": 5,
+  "BordersDashedOutsideStroke": "rgba(0, 0, 0, 1)",
+  "BordersSingleStyleStrokeAlign": "inside",
+  "BordersSingleStyleDashPattern": "",
+  "BordersSingleStyleStrokeCap": "none",
+  "BordersSingleStyleStrokeJoin": "miter",
+  "BordersSingleStyleStrokeMiterLimit": 4,
+  "BordersSingleStyleStrokeWeight": 5,
+  "BordersSingleStyleStroke": "rgba(4, 74, 255, 1)"
+}
