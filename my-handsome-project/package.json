@@ -1,16 +1,18 @@
 {
-  "name": "my-handsome-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@mhp/project",
+  "version": "1.0.1",
+  "private": false,
+  "author": "Pierre-Yves Vignau <vignau.py@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@mhp/design-system": "1.0.3",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "my-handsome-project-ds": "^0.1"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

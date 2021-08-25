@@ -1,22 +1,26 @@
 {
-  "name": "my-handsome-project-ds",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@mhp/design-system",
+  "version": "1.0.3",
+  "private": false,
+  "author": "Pierre-Yves Vignau <vignau.py@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "postbuild": "cp package.json dist",
+    "build": "webpack --config webpack.config.js --mode production",
     "lint": "vue-cli-service lint",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
     "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
+    "@mhp/tokens": "^1",
+    "babel-loader": "^8.2.2",
     "core-js": "^3.6.5",
     "css-loader": "^5.2.7",
     "resolve-url-loader": "^4.0.0",
     "vue": "^2.6.11",
     "webpack": "^4.46.0",
-    "tokens": "^1"
+    "webpack-cli": "^4.8.0",
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.0.26",
