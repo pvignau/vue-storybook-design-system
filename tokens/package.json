@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "prebuild": "rm -Rf dist/*",
     "build": "style-dictionary build --config ./config.js"
   },
   "dependencies": {
