@@ -1,9 +1,18 @@
 {
   "name": "design-system",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Pierre-Yves Vignau",
+  "author": "Pierre-Yves Vignau <vignau.py@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": ["my-handsome-project-ds", "tokens", "my-handsome-project"]
+  "workspaces": ["my-handsome-project-ds", "tokens", "my-handsome-project"],
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "globals": [],
+    "ignore": [
+      "node_modules/**"
+    ],
+    "parser": "babel-eslint"
+  }
 }
