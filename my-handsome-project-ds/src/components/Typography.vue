@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { typography } from '@mhp/tokens'
+import { Typography } from '@mhp/tokens'
 
 export default {
   name: 'Typography',
@@ -22,11 +22,11 @@ export default {
   },
   data () {
     return {
-      typography: typography
+      typography: Typography
     }
   },
   created () {
-    console.log(this.typography.headline2FontStretch)
+    console.log(this.typography)
   }
 }
 </script>

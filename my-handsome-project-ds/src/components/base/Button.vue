@@ -18,6 +18,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@import "~@mhp/tokens/dist/scss/_colors.scss";
+
   button {
     height: 40px;
     min-width: 70px;
@@ -29,9 +31,13 @@ export default {
     display: inline-block;
     vertical-align: text-top;
     line-height: 1;
-    background: #333333;
+    background: $color-regular;
     border-radius: 20px;
-    color: #ffffff;
+    color: $color-regular;
+  }
+
+  button:hover {
+
   }
 
   .primary {

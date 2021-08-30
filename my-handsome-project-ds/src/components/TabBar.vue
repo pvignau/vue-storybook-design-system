@@ -7,7 +7,7 @@
       <li><icon icon="chat" /></li>
       <li><icon icon="person" /></li>
     </ul>
-    <p class="label">Lorem Ipsum</p>
+    <p class="label smaller">Lorem Ipsum</p>
   </div>
 </template>
 
@@ -29,6 +29,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@import "../css/base/_typography.scss";
+@import "~@mhp/tokens/dist/scss/_colors.scss";
 
 .tab-bar {
   border-top: #E5E5E5 solid 2px;
