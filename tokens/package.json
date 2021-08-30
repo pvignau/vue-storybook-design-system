@@ -1,13 +1,13 @@
 {
   "name": "@mhp/tokens",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "author": "Pierre-Yves Vignau <vignau.py@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
     "prebuild": "rm -Rf dist/*",
-    "build": "style-dictionary build --config ./config.js"
+    "build": "node build.js"
   },
   "dependencies": {
     "style-dictionary": "^3.0.1"
