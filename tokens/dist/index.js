@@ -1,0 +1,10 @@
+import Borders from './json/_borders.json'
+import Breakpoints from './json/_breakpoints.json'
+import Colors from './json/_colors.json'
+import Effects from './json/_effects.json'
+import Grids from './json/_grids.json'
+import Radii from './json/_radii.json'
+import Sizes from './json/_sizes.json'
+import Spacing from './json/_spacing.json'
+import Typography from './json/_typography.json'
+export default { Borders,Breakpoints,Colors,Effects,Grids,Radii,Sizes,Spacing,Typography }
