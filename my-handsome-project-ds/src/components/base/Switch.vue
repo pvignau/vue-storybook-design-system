@@ -48,10 +48,11 @@ export default {
   display: inline-block;
   width: 32px;
   height: 16px;
-}
-.switch.big {
-  width: 64px;
-  height: 32px;
+
+  &.big{
+    width: 64px;
+    height: 32px;
+  }
 }
 
 /* Hide default HTML checkbox */
