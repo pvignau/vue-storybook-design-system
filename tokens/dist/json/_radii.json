@@ -14,7 +14,7 @@
   "RadiiSmoothingRadiiBottomLeft": 10,
   "RadiiSmoothingSmoothing": 0.75,
   "RadiiMixedRadiusType": "mixed",
-  "RadiiMixedRadiiTopLeft": 5.5,
+  "RadiiMixedRadiiTopLeft": 5,
   "RadiiMixedRadiiTopRight": 10,
   "RadiiMixedRadiiBottomRight": 15,
   "RadiiMixedRadiiBottomLeft": 20,

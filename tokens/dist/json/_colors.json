@@ -1,5 +1,10 @@
 {
-  "ColorRegular": "#3e5fff",
+  "ColorRegular": "#00ff08",
+  "ColorGrey": "#e5e5e5",
+  "ColorGreyer0": "#e5e5e5",
+  "ColorGreyer1": "#000000",
+  "ColorGreyish0": "#e5e5e5",
+  "ColorGreyish1": "#ffffff",
   "ColorColorsMultipleFills0": "#40ffba",
   "ColorColorsMultipleFills1": "#000000",
   "ColorColorsSingleBlue": "#044aff",

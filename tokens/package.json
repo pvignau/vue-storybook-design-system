@@ -1,6 +1,6 @@
 {
   "name": "@mhp/tokens",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "author": "Pierre-Yves Vignau <vignau.py@gmail.com>",
   "license": "MIT",

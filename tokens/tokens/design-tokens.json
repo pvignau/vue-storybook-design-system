@@ -3,7 +3,7 @@
     "40": {
       "category": "size",
       "exportKey": "size",
-      "value": 40,
+      "value": 32,
       "type": "number",
       "unit": "pixel"
     },
@@ -355,7 +355,7 @@
       },
       "radii": {
         "topLeft": {
-          "value": 5.5,
+          "value": 5,
           "type": "number",
           "unit": "pixel"
         },
@@ -385,8 +385,38 @@
     "regular": {
       "category": "color",
       "exportKey": "color",
-      "value": "rgba(62, 95, 255, 1)",
+      "value": "rgba(0, 255, 8, 1)",
       "type": "color"
+    },
+    "grey": {
+      "category": "color",
+      "exportKey": "color",
+      "value": "rgba(229, 229, 229, 1)",
+      "type": "color"
+    },
+    "greyer": {
+      "0": {
+        "value": "rgba(229, 229, 229, 1)",
+        "type": "color"
+      },
+      "1": {
+        "value": "rgba(0, 0, 0, 0.2)",
+        "type": "color"
+      },
+      "category": "color",
+      "exportKey": "color"
+    },
+    "greyish": {
+      "0": {
+        "value": "rgba(229, 229, 229, 1)",
+        "type": "color"
+      },
+      "1": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "category": "color",
+      "exportKey": "color"
     },
     "colors": {
       "multiple fills": {
@@ -909,7 +939,7 @@
       "category": "font",
       "exportKey": "font",
       "fontSize": {
-        "value": 64,
+        "value": 48,
         "type": "number",
         "unit": "pixel"
       },
