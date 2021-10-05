@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import { Typography } from '@mhp/tokens'
 
 export default {
   name: 'Typography',
@@ -21,12 +20,9 @@ export default {
     msg: String
   },
   data () {
-    return {
-      typography: Typography
-    }
+    return {}
   },
   created () {
-    console.log(this.typography)
   }
 }
 </script>
