@@ -19,11 +19,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 @import "~@mhp/tokens/dist/scss/_colors.scss";
+@import "~@mhp/tokens/dist/scss/_typography.scss";
 
   button {
     height: 40px;
     min-width: 70px;
-    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: $font-paragraph-font-family, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     padding: 12px 24px;
     border: 0;
