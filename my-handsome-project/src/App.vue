@@ -1,22 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <div class="actions">
-      <TabBar></TabBar>
-    </div>
+    <my-header>
+      <template v-slot:action-left><my-button type="tertiary"><icon type="menu"></icon></my-button></template>
+      <template v-slot:action-right><my-button type="tertiary"><icon type="help"></icon></my-button></template>
+    </my-header>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import { TabBar } from '@mhp/design-system'
+import {
+  Header as MyHeader,
+  Button as MyButton,
+  Icon
+} from '@mhp/design-system'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    TabBar
+    MyHeader,
+    MyButton,
+    Icon
   }
 }
 </script>
