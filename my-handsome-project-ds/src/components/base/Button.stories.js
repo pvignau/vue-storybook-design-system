@@ -10,26 +10,32 @@ const Template = (args, { argTypes }) => ({
   components: { MyButton },
   template:
       `<my-button v-bind="$props">
-          <template v-if="${'default' in args}" v-slot>${args.default}</template>
+          <template v-slot>${args.value}</template>
         </my-button>`,
 });
 
-export const Primary = Template.bind({});
-Primary.args = {
-  value: "",
-  default: `Button`
+const argTypes = {
+  value: { category: 'Slots', control: 'text' },
+  type: { control: 'select', options: ['default', 'secondary', 'tertiary'] }
+}
+
+export const Default = Template.bind({});
+Default.argTypes = argTypes;
+Default.args = {
+  value: 'Primary',
+  type: 'primary'
 };
 
 export const Secondary = Template.bind({});
+Secondary.argTypes = argTypes;
 Secondary.args = {
-  value: "",
-  type: 'secondary',
-  default: `Button`
+  value: 'Secondary',
+  type: 'secondary'
 }
 
-export const Funky = Template.bind({});
-Funky.args = {
-  value: "",
-  type: 'funky',
-  default: `Button`
+export const Tertiary = Template.bind({});
+Tertiary.argTypes = argTypes;
+Tertiary.args = {
+  value: "Tertiary",
+  type: 'tertiary'
 };

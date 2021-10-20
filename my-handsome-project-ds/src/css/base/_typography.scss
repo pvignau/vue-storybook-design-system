@@ -1,86 +1,93 @@
 @import "~@mhp/tokens/dist/scss/_typography.scss";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito+Sans:wght@400;700;800&display=swap');
 
-h1 {
-  font-size: $font-h1-font-size;
-  text-decoration: $font-h1-text-decoration;
-  font-family: $font-h1-font-family;
-  font-weight: $font-h1-font-weight;
-  font-style: $font-h1-font-style;
-  font-stretch: $font-h1-font-stretch;
-  letter-spacing: $font-h1-letter-spacing;
-  line-height: $font-h1-line-height;
-  text-indent: $font-h1-paragraph-indent;
-  border-spacing: $font-h1-paragraph-spacing;
+.title {
+  font-size: $font-title-font-size;
+  font-family: $font-title-font-family;
+  font-weight: $font-title-font-weight;
+  letter-spacing: $font-title-letter-spacing;
+  line-height: $font-title-line-height;
+  border-spacing: $font-title-paragraph-spacing;
+  text-decoration: $font-title-text-decoration;
+  font-style: $font-title-font-style;
+  font-stretch: $font-title-font-stretch;
+  text-indent: $font-title-paragraph-indent;
+
+  &--bold {
+    font-size: $font-title-fatface-font-size;
+    font-family: $font-title-fatface-font-family;
+    font-weight: $font-title-fatface-font-weight;
+    letter-spacing: $font-title-fatface-letter-spacing;
+    line-height: $font-title-fatface-line-height;
+    border-spacing: $font-title-fatface-paragraph-spacing;
+    text-decoration: $font-title-fatface-text-decoration;
+    font-style: $font-title-fatface-font-style;
+    font-stretch: $font-title-fatface-font-stretch;
+    text-indent: $font-title-fatface-paragraph-indent;
+  }
 }
-h2 {
-   font-size: $font-h2-font-size;
-   text-decoration: $font-h2-text-decoration;
-   font-family: $font-h2-font-family;
-   font-weight: $font-h2-font-weight;
-   font-style: $font-h2-font-style;
-   font-stretch: $font-h2-font-stretch;
-   letter-spacing: $font-h2-letter-spacing;
-   line-height: $font-h2-line-height;
-   text-indent: $font-h2-paragraph-indent;
-   border-spacing: $font-h2-paragraph-spacing;
+.subtitle {
+   font-size: $font-subtitle-font-size;
+   font-family: $font-subtitle-font-family;
+   font-weight: $font-subtitle-font-weight;
+   letter-spacing: $font-subtitle-letter-spacing;
+   line-height: $font-subtitle-line-height;
+   border-spacing: $font-subtitle-paragraph-spacing;
+   text-decoration: $font-subtitle-text-decoration;
+   font-style: $font-subtitle-font-style;
+   font-stretch: $font-subtitle-font-stretch;
+   text-indent: $font-subtitle-paragraph-indent;
 }
-h3 {
-    font-size: $font-h3-font-size;
-    text-decoration: $font-h3-text-decoration;
-    font-family: $font-h3-font-family;
-    font-weight: $font-h3-font-weight;
-    font-style: $font-h3-font-style;
-    font-stretch: $font-h3-font-stretch;
-    letter-spacing: $font-h3-letter-spacing;
-    line-height: $font-h3-line-height;
-    text-indent: $font-h3-paragraph-indent;
-    border-spacing: $font-h3-paragraph-spacing;
-}
-h4 {
-     font-size: $font-h4-font-size;
-     text-decoration: $font-h4-text-decoration;
-     font-family: $font-h4-font-family;
-     font-weight: $font-h4-font-weight;
-     font-style: $font-h4-font-style;
-     font-stretch: $font-h4-font-stretch;
-     letter-spacing: $font-h4-letter-spacing;
-     line-height: $font-h4-line-height;
-     text-indent: $font-h4-paragraph-indent;
-     border-spacing: $font-h4-paragraph-spacing;
-}
-p {
-  font-size: $font-paragraph-font-size;
-  text-decoration: $font-paragraph-text-decoration;
-  font-family: $font-paragraph-font-family;
-  font-weight: $font-paragraph-font-weight;
-  font-style: $font-paragraph-font-style;
-  font-stretch: $font-paragraph-font-stretch;
-  letter-spacing: $font-paragraph-letter-spacing;
-  line-height: $font-paragraph-line-height;
-  text-indent: $font-paragraph-paragraph-indent;
-  border-spacing: $font-paragraph-paragraph-spacing;
-}
-p.small {
-  font-size: $font-paragraph-small-font-size;
-  text-decoration: $font-paragraph-small-text-decoration;
-  font-family: $font-paragraph-small-font-family;
-  font-weight: $font-paragraph-small-font-weight;
-  font-style: $font-paragraph-small-font-style;
-  font-stretch: $font-paragraph-small-font-stretch;
-  letter-spacing: $font-paragraph-small-letter-spacing;
-  line-height: $font-paragraph-small-line-height;
-  text-indent: $font-paragraph-small-paragraph-indent;
-  border-spacing: $font-paragraph-small-paragraph-spacing;
-}
-p.smaller {
-  font-size: $font-paragraph-smaller-font-size;
-  text-decoration: $font-paragraph-smaller-text-decoration;
-  font-family: $font-paragraph-smaller-font-family;
-  font-weight: $font-paragraph-smaller-font-weight;
-  font-style: $font-paragraph-smaller-font-style;
-  font-stretch: $font-paragraph-smaller-font-stretch;
-  letter-spacing: $font-paragraph-smaller-letter-spacing;
-  line-height: $font-paragraph-smaller-line-height;
-  text-indent: $font-paragraph-smaller-paragraph-indent;
-  border-spacing: $font-paragraph-smaller-paragraph-spacing;
+
+.text {
+  &__md {
+    font-size: $font-text-base-regular-font-size;
+    font-family: $font-text-base-regular-font-family;
+    font-weight: $font-text-base-regular-font-weight;
+    letter-spacing: $font-text-base-regular-letter-spacing;
+    line-height: $font-text-base-regular-line-height;
+    border-spacing: $font-text-base-regular-paragraph-spacing;
+    text-decoration: $font-text-base-regular-text-decoration;
+    font-style: $font-text-base-regular-font-style;
+    font-stretch: $font-text-base-regular-font-stretch;
+    text-indent: $font-text-base-regular-paragraph-indent;
+
+    &--bold {
+      font-size: $font-text-base-bold-font-size;
+      font-family: $font-text-base-bold-font-family;
+      font-weight: $font-text-base-bold-font-weight;
+      letter-spacing: $font-text-base-bold-letter-spacing;
+      line-height: $font-text-base-bold-line-height;
+      border-spacing: $font-text-base-bold-paragraph-spacing;
+      text-decoration: $font-text-base-bold-text-decoration;
+      font-style: $font-text-base-bold-font-style;
+      font-stretch: $font-text-base-bold-font-stretch;
+      text-indent: $font-text-base-bold-paragraph-indent;
+    }
+  }
+  &__sm {
+    font-size: $font-texte-small-regular-font-size;
+    font-family: $font-texte-small-regular-font-family;
+    font-weight: $font-texte-small-regular-font-weight;
+    letter-spacing: $font-texte-small-regular-letter-spacing;
+    line-height: $font-texte-small-regular-line-height;
+    border-spacing: $font-texte-small-regular-paragraph-spacing;
+    text-decoration: $font-texte-small-regular-text-decoration;
+    font-style: $font-texte-small-regular-font-style;
+    font-stretch: $font-texte-small-regular-font-stretch;
+    text-indent: $font-texte-small-regular-paragraph-indent;
+
+    &--bold {
+      font-size: $font-texte-small-bold-font-size;
+      font-family: $font-texte-small-bold-font-family;
+      font-weight: $font-texte-small-bold-font-weight;
+      letter-spacing: $font-texte-small-bold-letter-spacing;
+      line-height: $font-texte-small-bold-line-height;
+      border-spacing: $font-texte-small-bold-paragraph-spacing;
+      text-decoration: $font-texte-small-bold-text-decoration;
+      font-style: $font-texte-small-bold-font-style;
+      font-stretch: $font-texte-small-bold-font-stretch;
+      text-indent: $font-texte-small-bold-paragraph-indent;
+    }
+  }
 }

@@ -9,10 +9,10 @@ const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MyIcon },
   template:
-    '<my-icon :icon="icon"/>',
+    '<my-icon :type="type"/>',
 });
 
 export const Default = Template.bind({});
 Default.args = {
-  icon: "home",
+  type: "menu",
 };

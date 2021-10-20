@@ -1,17 +1,25 @@
 <template>
-  <span :class="'icon-' + icon"></span>
+  <component v-if="componentName" :is="componentName" />
 </template>
 
 <script>
+import SvgIcons from './icons'
+
 export default {
   name: 'Icon',
+  data () {
+    return {
+      icons: SvgIcons
+    }
+  },
   props: {
-    icon: String
+    type: String
+  },
+  computed: {
+    componentName () {
+      if (!SvgIcons[this.type]) return false
+      return SvgIcons[this.type]
+    }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
-@import "../../css/base/_icons.scss";
-</style>

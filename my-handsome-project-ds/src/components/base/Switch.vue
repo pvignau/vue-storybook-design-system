@@ -70,7 +70,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: $color-grey;
+  background-color: $color-primary-dark;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -95,7 +95,7 @@ export default {
 }
 
 input:checked + .slider {
-  background-color: $color-regular;
+  background-color: $color-primary-base;
 }
 
 input:focus + .slider {
@@ -108,7 +108,7 @@ input:focus + .slider {
   transform: translateX(16px);
   height: 10px;
   width: 10px;
-  border: 1px solid mix($color-greyish-0,$color-greyish-1,60%);
+  border: 1px solid $color-primary-pastel;
 }
 
 .switch.big input:checked + .slider:before {

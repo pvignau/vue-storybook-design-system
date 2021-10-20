@@ -1,0 +1,14 @@
+@import "~@mhp/tokens/dist/scss/_effects.scss";
+
+.shadow {
+  box-shadow: $effect-shadow-icon-offset-x $effect-shadow-icon-offset-y $effect-shadow-icon-radius $effect-shadow-icon-spread $effect-shadow-icon-color;
+  &--high {
+    box-shadow: $effect-shadow-high-offset-x $effect-shadow-high-offset-y $effect-shadow-high-radius $effect-shadow-high-spread $effect-shadow-high-color;
+  }
+  &--high-top {
+    box-shadow: $effect-shadow-high-top-offset-x $effect-shadow-high-top-offset-y $effect-shadow-high-top-radius $effect-shadow-high-top-spread $effect-shadow-high-top-color;
+  }
+  &--high-low {
+    box-shadow: $effect-shadow-low-offset-x $effect-shadow-low-offset-y $effect-shadow-low-radius $effect-shadow-low-spread $effect-shadow-low-color;
+  }
+}
