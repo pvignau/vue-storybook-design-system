@@ -49,19 +49,17 @@ module.exports = {
           }
         ]
       },
-      /* config.module.rule('svg') */
       {
-        test: /\.(svg)(\?.*)?$/,
+        test: /\.svg$/,
         use: [
-          /* config.module.rule('svg').use('file-loader') */
           {
-            loader: paths.libModules + '/@vue/cli-service/node_modules/file-loader/dist/cjs.js',
-            options: {
-              name: 'img/[name].[hash:8].[ext]'
-            }
-          }
-        ]
+            loader: 'babel-loader'
+          },{
+            loader: 'vue-svg-loader',
+          },
+        ],
       },
+
       /* config.module.rule('media') */
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
