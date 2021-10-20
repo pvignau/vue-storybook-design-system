@@ -3,7 +3,6 @@ const path = require('path');
 const fs = require('fs');
 
 const filters = [
-
     {
         name: 'colors',
         matcher: (token) => ['color', 'gradient'].indexOf(token.attributes.category) >= 0
@@ -56,31 +55,45 @@ filters.forEach(filter => {
 StyleDictionary.registerTransform({
     name: 'size/px',
     type: 'value',
-    matcher: token => {
-        return token.unit === 'pixel' && token.value !== 0
-    },
-    transformer: token => {
-        return `${token.value}px`
-    },
+    matcher: token => token.unit === 'pixel' && token.value !== 0,
+    transformer: token => `${token.value}px`
 })
 
 StyleDictionary.registerTransform({
     name: 'size/percent',
     type: 'value',
-    matcher: token => {
-        return token.unit === 'percent' && token.value !== 0
-    },
-    transformer: token => {
-        return `${token.value}%`
-    },
+    matcher: token => token.unit === 'percent' && token.value !== 0,
+    transformer: token => `${token.value}%`
+})
+
+StyleDictionary.registerTransform({
+    name: 'size/percent',
+    type: 'value',
+    matcher: token => token.unit === 'percent' && token.value !== 0,
+    transformer: token => `${token.value}%`
+})
+
+// Avoid having no value before semicolon
+StyleDictionary.registerTransform({
+    name: 'value/empty',
+    type: 'value',
+    matcher: token => token.value === '' || token.value === "",
+    transformer: () => null
 })
 
 StyleDictionary.registerTransformGroup({
     name: 'custom/scss',
-    transforms: StyleDictionary.transformGroup['less'].concat([
+    transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
+        'time/seconds',
+        'content/icon',
+        'size/rem',
+        'color/hex8', // hex8 instead of hex to keep alpha
         'size/px',
         'size/percent',
-    ]),
+        'value/empty'
+    ],
 })
 
 const config = {

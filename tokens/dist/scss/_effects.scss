@@ -1,32 +1,28 @@
 
 // Do not edit directly
-// Generated on Tue, 14 Sep 2021 09:40:42 GMT
+// Generated on Wed, 20 Oct 2021 12:27:38 GMT
 
-$effect-drop-shadow-single-type: dropShadow;
-$effect-drop-shadow-single-radius: 4px;
-$effect-drop-shadow-single-color: rgba(0, 0, 0, 0.25);
-$effect-drop-shadow-single-offset-x: 0;
-$effect-drop-shadow-single-offset-y: 4px;
-$effect-drop-shadow-single-spread: 0;
-$effect-inner-shadow-multiple-0-type: innerShadow;
-$effect-inner-shadow-multiple-0-radius: 4px;
-$effect-inner-shadow-multiple-0-color: rgba(0, 0, 0, 0.25);
-$effect-inner-shadow-multiple-0-offset-x: 0;
-$effect-inner-shadow-multiple-0-offset-y: 4px;
-$effect-inner-shadow-multiple-0-spread: 0;
-$effect-inner-shadow-multiple-1-type: innerShadow;
-$effect-inner-shadow-multiple-1-radius: 1px;
-$effect-inner-shadow-multiple-1-color: rgba(0, 0, 0, 1);
-$effect-inner-shadow-multiple-1-offset-x: 10px;
-$effect-inner-shadow-multiple-1-offset-y: 100px;
-$effect-inner-shadow-multiple-1-spread: 0.5px;
-$effect-inner-shadow-multiple-2-type: innerShadow;
-$effect-inner-shadow-multiple-2-radius: 3px;
-$effect-inner-shadow-multiple-2-color: rgba(0, 0, 0, 0.25);
-$effect-inner-shadow-multiple-2-offset-x: -4px;
-$effect-inner-shadow-multiple-2-offset-y: 2px;
-$effect-inner-shadow-multiple-2-spread: 11px;
-$effect-layer-blur-type: layerBlur;
-$effect-layer-blur-radius: 4px;
-$effect-background-blur-type: backgroundBlur;
-$effect-background-blur-radius: 4px;
+$effect-shadow-icon-type: dropShadow;
+$effect-shadow-icon-radius: 4px;
+$effect-shadow-icon-color: rgba(0, 0, 0, 0.25);
+$effect-shadow-icon-offset-x: 0;
+$effect-shadow-icon-offset-y: 4px;
+$effect-shadow-icon-spread: 0;
+$effect-shadow-high-type: dropShadow;
+$effect-shadow-high-radius: 4px;
+$effect-shadow-high-color: rgba(0, 0, 0, 0.25);
+$effect-shadow-high-offset-x: 0;
+$effect-shadow-high-offset-y: 4px;
+$effect-shadow-high-spread: 0;
+$effect-shadow-high-top-type: dropShadow;
+$effect-shadow-high-top-radius: 10px;
+$effect-shadow-high-top-color: rgba(30, 5, 39, 0.08);
+$effect-shadow-high-top-offset-x: 0;
+$effect-shadow-high-top-offset-y: -2px;
+$effect-shadow-high-top-spread: 0;
+$effect-shadow-low-type: dropShadow;
+$effect-shadow-low-radius: 4px;
+$effect-shadow-low-color: rgba(30, 5, 39, 0.16);
+$effect-shadow-low-offset-x: 0;
+$effect-shadow-low-offset-y: 1px;
+$effect-shadow-low-spread: 0;
