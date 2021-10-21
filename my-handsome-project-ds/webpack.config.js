@@ -105,7 +105,7 @@ module.exports = {
           'vue-style-loader',
           'css-loader',
           'resolve-url-loader',
-          'sass-loader'
+          'sass-loader',
         ],
         include: [
           path.resolve(__dirname, 'src'),
