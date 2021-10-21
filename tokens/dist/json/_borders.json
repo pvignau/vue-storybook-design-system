@@ -5,12 +5,12 @@
   "BordersSingleStrokeJoin": "miter",
   "BordersSingleStrokeMiterLimit": 4,
   "BordersSingleStrokeWeight": 1,
-  "BordersSingleStroke": "rgba(49, 3, 65, 1)",
+  "BordersSingleStroke": "rgba(255, 255, 255, 1)",
   "BordersLightStrokeAlign": "outside",
   "BordersLightDashPattern": "",
   "BordersLightStrokeCap": "none",
   "BordersLightStrokeJoin": "miter",
   "BordersLightStrokeMiterLimit": 4,
   "BordersLightStrokeWeight": 1,
-  "BordersLightStroke": "rgba(49, 3, 65, 0.3)"
+  "BordersLightStroke": "rgba(193, 179, 198, 1)"
 }

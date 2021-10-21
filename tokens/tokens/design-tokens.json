@@ -30,7 +30,7 @@
         "unit": "pixel"
       },
       "stroke": {
-        "value": "rgba(49, 3, 65, 1)",
+        "value": "rgba(255, 255, 255, 1)",
         "type": "color"
       }
     },
@@ -64,7 +64,7 @@
         "unit": "pixel"
       },
       "stroke": {
-        "value": "rgba(49, 3, 65, 0.3)",
+        "value": "rgba(193, 179, 198, 1)",
         "type": "color"
       }
     }
@@ -367,7 +367,7 @@
     "primary": {
       "category": "color",
       "exportKey": "color",
-      "value": "rgba(49, 3, 65, 1)",
+      "value": "rgba(122, 16, 158, 1)",
       "type": "color"
     },
     "secondary": {
@@ -415,13 +415,13 @@
     "background": {
       "category": "color",
       "exportKey": "color",
-      "value": "rgba(255, 255, 255, 1)",
+      "value": "rgba(30, 5, 39, 1)",
       "type": "color"
     },
     "surface": {
       "category": "color",
       "exportKey": "color",
-      "value": "rgba(255, 255, 255, 1)",
+      "value": "rgba(30, 5, 39, 1)",
       "type": "color"
     },
     "error": {
@@ -451,13 +451,31 @@
     "on surface": {
       "category": "color",
       "exportKey": "color",
-      "value": "rgba(30, 5, 39, 1)",
+      "value": "rgba(255, 255, 255, 1)",
       "type": "color"
     },
     "on error": {
       "category": "color",
       "exportKey": "color",
       "value": "rgba(255, 255, 255, 1)",
+      "type": "color"
+    },
+    "on surface light": {
+      "category": "color",
+      "exportKey": "color",
+      "value": "rgba(136, 107, 151, 1)",
+      "type": "color"
+    },
+    "on surface lighter": {
+      "category": "color",
+      "exportKey": "color",
+      "value": "rgba(215, 166, 232, 1)",
+      "type": "color"
+    },
+    "background lighter": {
+      "category": "color",
+      "exportKey": "color",
+      "value": "rgba(193, 179, 198, 1)",
       "type": "color"
     },
     "neutral": {
@@ -1166,7 +1184,7 @@
           "unit": "pixel"
         },
         "color": {
-          "value": "rgba(0, 0, 0, 0.25)",
+          "value": "rgba(255, 255, 255, 0.25)",
           "type": "color"
         },
         "offset": {
@@ -1200,7 +1218,7 @@
           "unit": "pixel"
         },
         "color": {
-          "value": "rgba(30, 5, 39, 0.08)",
+          "value": "rgba(195, 183, 199, 0.08)",
           "type": "color"
         },
         "offset": {
@@ -1234,7 +1252,7 @@
           "unit": "pixel"
         },
         "color": {
-          "value": "rgba(30, 5, 39, 0.16)",
+          "value": "rgba(211, 196, 216, 0.16)",
           "type": "color"
         },
         "offset": {
