@@ -3,13 +3,13 @@
     <div v-if="state" class="card__state">
       <div class="tag text__md text__md--bold">{{ state[0].toUpperCase() + state.slice(1, state.length) }}</div>
     </div>
-    <div class="card__title">
+    <div v-if="!!$slots.title" class="card__title">
       <p class="text__md text__md--bold"><slot name="title"></slot></p>
     </div>
-    <div class="card__subtitle">
+    <div v-if="!!$slots.subtitle" class="card__subtitle">
       <p class="text__md"><slot name="subtitle"></slot></p>
     </div>
-    <div class="card__content">
+    <div v-if="!!$slots.default" class="card__content">
       <slot></slot>
     </div>
     <div class="card__date">
@@ -19,7 +19,7 @@
       <p>Par <span class="text__sm--bold">{{ author }}</span></p>
       <p>INC <span class="text__sm--bold">{{ id }}</span></p>
     </div>
-    <div class="card__actions">
+    <div v-if="!!$slots.actions" class="card__actions">
       <slot name="actions"></slot>
     </div>
   </div>
@@ -64,8 +64,8 @@ export default {
 
   &__state .tag {
     height: 19px;
-    background: $color-primary-ultra-light-alpha-10;
-    color: $color-primary-base;
+    background: $color-background-lighter;
+    color: $color-on-secondary;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 10px;
@@ -73,11 +73,11 @@ export default {
     vertical-align: bottom;
     text-align: center;
     border-radius: $radius-sm-radius;
-    width: min-content;
+    width: max-content;
   }
 
   &__title {
-    color: $color-primary-light;
+    color: $color-on-surface-lighter;
     padding-top: 20px;
   }
   &__subtitle {
@@ -87,11 +87,11 @@ export default {
     padding-top: 20px;
   }
   &__date {
-    color: $color-primary-pastel;
+    color: $color-on-surface-light;
     padding-top: 20px;
   }
   &__author {
-    color: $color-primary-pastel;
+    color: $color-on-surface-light;
     padding-top: 5px;
     display: flex;
     justify-content: space-between;

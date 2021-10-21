@@ -1,14 +1,16 @@
 <template>
   <div class="header shadow shadow--low" :class="{'header--with-title': title !== '' }">
-    <div class="header__action-left">
-      <slot name="action-left"></slot>
-    </div>
     <div class="header__content">
-      <Logo />
-      <p v-if="title" class="text__md">{{ title }}</p>
-    </div>
-    <div class="header__action-right">
-      <slot name="action-right"></slot>
+      <div class="header__action-left">
+        <slot name="action-left"></slot>
+      </div>
+      <div class="header__title">
+        <Logo />
+        <p v-if="title" class="text__md">{{ title }}</p>
+      </div>
+      <div class="header__action-right">
+        <slot name="action-right"></slot>
+      </div>
     </div>
   </div>
 </template>
@@ -40,17 +42,22 @@ export default {
 
 .header {
   width: 100%;
+  height: 60px;
   color: $color-on-surface;
   background-color: $color-surface;
   border-radius: $radius-xxs-radius;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+  }
   &--with-title {
     align-items: baseline;
 
-    & .header__content {
+    & .header__title {
       display: flex;
       flex-direction: column;
       justify-content: center;

@@ -13,8 +13,8 @@ const Template = (args, { argTypes }) => ({
   template:
       `<div style="max-width: 375px;">
         <my-header v-bind="$props">
-          <template v-slot:action-left><my-button type="tertiary"><my-icon icon="home"></my-icon></my-button></template>
-          <template v-slot:action-right><my-button type="tertiary"><my-icon icon="home"></my-icon></my-button></template>
+          <template v-slot:action-left><my-button type="tertiary"><my-icon type="menu"></my-icon></my-button></template>
+          <template v-slot:action-right><my-button type="tertiary"><my-icon type="help"></my-icon></my-button></template>
         </my-header>
       </div>`,
 });

@@ -42,7 +42,6 @@ button {
   border-radius: $radius-sm-radius;
   color: $color-on-primary;
   background: $color-primary;
-  background: linear-gradient($gradient-primary-gradient-base-rotation + deg, $gradient-primary-gradient-base-stops-0-color, $gradient-primary-gradient-base-stops-1-color);
 }
 .secondary {
   color: $color-on-surface;
